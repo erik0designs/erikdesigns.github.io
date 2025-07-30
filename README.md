@@ -4,7 +4,7 @@ Welcome to my website! This is a Selling Website made with HTML, CSS, and JavaSc
 
 ## Live Site
 
-You can visit the site here: [https://erik0designs.github.io/](https://erik0designs.github.io/)
+
 
 ## Features
 
