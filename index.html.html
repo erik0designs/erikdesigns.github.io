@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>erik.designs – Kreatives Design von Stickern bis Videos</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f5f5f5;
+      color: #222;
+      scroll-behavior: smooth;
+    }
+    header {
+      background: url('https://www.transparenttextures.com/patterns/graffiti.png') repeat, #222;
+      color: white;
+      padding: 3rem 1rem;
+      text-align: center;
+      animation: fadeInDown 1s ease;
+    }
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-50px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    header img {
+      width: 160px;
+      border-radius: 50%;
+    }
+    h1 {
+      margin-top: 1rem;
+    }
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: center;
+      margin-top: 2rem;
+    }
+    .card {
+      background: white;
+      border-radius: 1rem;
+      padding: 1.5rem;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      flex: 1 1 280px;
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card h3 {
+      margin-top: 0;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 0.5rem;
+      object-fit: cover;
+    }
+    .pricing {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: center;
+      margin-top: 3rem;
+    }
+    .price-box {
+      background: #fff;
+      border: 2px solid #ddd;
+      border-radius: 1rem;
+      padding: 2rem;
+      text-align: center;
+      width: 280px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      transition: all 0.3s ease;
+    }
+    .price-box:hover {
+      transform: scale(1.03);
+      border-color: #333;
+    }
+    .price-box h3 {
+      margin-top: 0;
+      color: #333;
+    }
+    .price {
+      font-size: 2rem;
+      margin: 1rem 0;
+      color: #00aced;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background: #111;
+      color: white;
+    }
+    .socials a {
+      margin: 0 0.5rem;
+      color: #00aced;
+      text-decoration: none;
+      font-size: 1.2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Erik Designs Logo">
+    <h1>Erik.Designs</h1>
+    <p>Sticker · Thumbnails · Video Editing</p>
+  </header>
+
+  <section>
+    <h2>Meine Angebote</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Stickerdesign</h3>
+        <p>Individuelle, kreative Sticker für alles – von Skateboards bis Notebooks.</p>
+      </div>
+      <div class="card">
+        <h3>Thumbnails</h3>
+        <p>Eyecatcher für YouTube & Co., damit dein Video sofort geklickt wird.</p>
+      </div>
+      <div class="card">
+        <h3>Video Editing</h3>
+        <p>Schnitte, Effekte und Übergänge – professionell & passend zu deinem Stil.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Beispiele</h2>
+    <div class="gallery">
+      <img src="https://source.unsplash.com/400x400/?graffiti,design" alt="Beispiel 1">
+      <img src="website_sticker_1.png" alt="ein Beispiel eines Produktes">
+      <img src="https://source.unsplash.com/400x400/?thumbnail,art" alt="Beispiel 3">
+    </div>
+  </section>
+
+  <section>
+    <h2>Preise & Produkte</h2>
+    <div class="pricing">
+      <div class="price-box">
+        <h3>Stickerdesign</h3>
+        <p class="price">ab 5 €</p>
+        <p>Einfaches Design, individuell angepasst, bereit zum Druck.</p>
+      </div>
+      <div class="price-box">
+        <h3>Thumbnail</h3>
+        <p class="price">ab 7 €</p>
+        <p>Hochwertige Vorschau für YouTube oder Social Media mit Eyecatcher-Garantie.</p>
+      </div>
+      <div class="price-box">
+        <h3>Video Editing</h3>
+        <p class="price">ab 15 €</p>
+        <p>Basic-Schnitt, Effekte & Musik für dein Projekt (z. B. Shorts oder Vlogs).</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Kontakt über:</p>
+    <div class="socials">
+      <a href="https://instagram.com/erik.designs" target="_blank">Instagram</a>
+      <a href="https://tiktok.com/@erik.designs" target="_blank">TikTok</a>
+    </div>
+    <p>&copy; 2025 Erik.Designs</p>
+  </footer>
+</body>
+</html>
